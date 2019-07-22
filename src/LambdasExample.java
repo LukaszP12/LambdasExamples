@@ -10,6 +10,10 @@ public class LambdasExample  {
 
         String returnValue = myFunction.apply("Hello Function Body", "Test");
         System.out.println(returnValue);
+
+        MyFunction myFunction2 = myFunction;
+        String returnValue2 = myFunction2.apply("Text1","Text2");
+        System.out.println(returnValue2);
     }
 
 }
