@@ -12,7 +12,7 @@ public class LambdasExample {
 
         int compare = stringComparator.compare("hello","world");
         System.out.println(compare);
-        
+
 
     }
 
